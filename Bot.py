@@ -108,8 +108,4 @@ async def zeg(ctx, *args):
     await ctx.message.delete()
     await ctx.message.channel.send(" ".join(args))
 
-#@zeg.error
-#async def quote_error(ctx, error):
-#   await ctx.message.channel.send("Probeer eens: ?zeg Hallo ik ben Rik.")
-
 bot.run('change_me')
